@@ -119,3 +119,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+export BROWSER='/mnt/c/Program Files/Google/Chrome/Application/chrome.exe'
+
+

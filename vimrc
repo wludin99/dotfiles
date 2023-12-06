@@ -82,3 +82,7 @@ inoremap <Down>  <ESC>:echoe "Use j"<CR>
 "change default mapping for invoking controlP
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
+"enable persistent undo history
+set undofile
+set undodir
